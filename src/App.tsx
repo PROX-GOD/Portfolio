@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react'
-import { MessageCircleMore,  Terminal, User, Home, Mail, Code, Briefcase, GraduationCap, Github, Linkedin, X, ArrowLeft, Instagram, Facebook } from 'lucide-react'
+import { MessageCircleMore,  Terminal, User, Home, Mail, Code, Briefcase, GraduationCap, Github, X, ArrowLeft, Instagram, Facebook } from 'lucide-react'
 import { useMediaQuery } from 'react-responsive';
 const sections = {
   home: {
