@@ -7,7 +7,7 @@ const sections = {
     icon: <Home className="w-5 h-5" />,
     content: (
       <div className="flex flex-col items-center space-y-6">
-        <img src={require('./assets/profile.jpeg')} alt="Preshak" className="rounded-full w-36 h-36 border-4 border-green-500 shadow-lg" />
+        <img src={requirtext-sets/profile.jpeg')} alt="Preshak" className="rounded-full w-36 h-36 border-4 border-green-500 shadow-lg" />
         <div className="text-center">
           <h2 className="text-3xl font-bold mb-2">Preshak Bhattarai</h2>
           <p className="text-xl mb-2 text-green-400">Hacker Extraordinaire | Cybersecurity Enthusiast</p>
@@ -243,7 +243,7 @@ export default function Component() {
           <div className="text-sm text-gray-300">Preshak's Terminal</div>
           <X className="w-4 h-4 text-gray-300" />
         </div>
-        <div ref={terminalRef} className="p-6 h-[85vh] overflow-auto">
+        <div ref={terminalRef} className="p-6 h-[80vh] overflow-auto">
           <div className="mb-4">
             <span className="text-blue-400">preshak@hackbox:~$</span> {command}
           </div>
