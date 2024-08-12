@@ -243,7 +243,7 @@ export default function Component() {
           <div className="text-sm text-gray-300">Preshak's Terminal</div>
           <X className="w-4 h-4 text-gray-300" />
         </div>
-        <div ref={terminalRef} className="p-6 h-[80vh] overflow-auto">
+        <div ref={terminalRef} className="p-6 h-[76vh] overflow-auto">
           <div className="mb-4">
             <span className="text-blue-400">preshak@hackbox:~$</span> {command}
           </div>
